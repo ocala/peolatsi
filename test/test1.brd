@@ -1,0 +1,134 @@
+
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>CorrectAction</MessageType>
+        <Selection>
+            <value>C_1</value>
+        </Selection>
+        <Input>
+            <value>-1</value>
+        </Input>
+        <Action>
+            <value>ElementCreated</value>
+        </Action>
+        <transaction_id>T22a66574:12f7a056d44:-7fcf</transaction_id>
+    </properties>
+</message>
+
+
+
+
+
+
+
+
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>StateGraph</MessageType>
+        <caseInsensitive>true</caseInsensitive>
+        <unordered>true</unordered>
+        <lockWidget>true</lockWidget>
+        <suppressStudentFeedback>false</suppressStudentFeedback>
+        <highlightRightSelection>true</highlightRightSelection>
+        <transaction_id>T22a66574:12f7a056d44:-7fb4</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>StartProblem</MessageType>
+        <ProblemName>testingNetStorageAfterStartStatedCreation</ProblemName>
+        <transaction_id>T22a66574:12f7a056d44:-7fb3</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType></MessageType>
+        <Selection>
+            <value></value>
+        </Selection>
+        <Action>
+            <value></value>
+        </Action>
+        <Input>
+            <value></value>
+        </Input>
+        <transaction_id>T22a66574:12f7a056d44:-7fb2</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>SendWidgetLock</MessageType>
+        <WidgetLockFlag>true</WidgetLockFlag>
+        <transaction_id>T22a66574:12f7a056d44:-7fb0</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>StartStateEnd</MessageType>
+        <transaction_id>T22a66574:12f7a056d44:-7fb1</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>InterfaceAction</MessageType>
+        <Selection>
+            <value>C_1</value>
+        </Selection>
+        <Action>
+            <value>ElementCreated</value>
+        </Action>
+        <Input>
+            <value>-1</value>
+        </Input>
+        <end_of_transaction>false</end_of_transaction>
+        <transaction_id>T22a66574:12f7a056d44:-7faf</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>CorrectAction</MessageType>
+        <Selection>
+            <value>C_1</value>
+        </Selection>
+        <Action>
+            <value>ElementCreated</value>
+        </Action>
+        <Input>
+            <value>-1</value>
+        </Input>
+        <end_of_transaction>false</end_of_transaction>
+        <transaction_id>T22a66574:12f7a056d44:-7faf</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>AssociatedRules</MessageType>
+        <Indicator>Correct</Indicator>
+        <Selection>
+            <value>C_1</value>
+        </Selection>
+        <Action>
+            <value>ElementCreated</value>
+        </Action>
+        <Input>
+            <value>-1</value>
+        </Input>
+        <Rules>
+            <value>unnamed</value>
+        </Rules>
+        <StepID>11</StepID>
+        <tool_selection>C_1</tool_selection>
+        <LogAsResult>true</LogAsResult>
+        <end_of_transaction>true</end_of_transaction>
+        <transaction_id>T22a66574:12f7a056d44:-7faf</transaction_id>
+    </properties>
+</message>

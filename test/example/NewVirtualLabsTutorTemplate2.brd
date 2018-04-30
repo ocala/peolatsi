@@ -1,0 +1,2694 @@
+<?xml version="1.0" standalone="yes"?>
+
+<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" version="2.1" suppressStudentFeedback="false" highlightRightSelection="true" startStateNodeName="%(startStateNodeName)%">
+    <startNodeMessages>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>StartProblem</MessageType>
+                <ProblemName>NewVirtualLabsTutorTemplate2</ProblemName>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType></MessageType>
+                <Selection>
+                    <value></value>
+                </Selection>
+                <Action>
+                    <value></value>
+                </Action>
+                <Input>
+                    <value></value>
+                </Input>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>A_NLTF_1</value>
+                </Selection>
+                <Action>
+                    <value>ElementCreated</value>
+                </Action>
+                <Input>
+                    <value>-1</value>
+                </Input>
+                <onHold>
+                    <value>H4sIAAAAAAAAAH1Uz2/cVBCeOLub3SRS220rVRWgRUIRIo2dlPbSXLpk2WJh0kJ+FLoS7av9dvdF9rP7/Da7ERLizK1/BDeQECfEDXGpuAFHhIS4VCBx48ChajtjP683VRVL897M55nvzbwZ++t/oZoquDoWKbcHI2Gn/pBHTAvf5iGPuNSpvR1LT0jO1K5iMu1z1R1JX4tYPhK/3Ks3m30LYKLg0kkcL4autG//9j08PJuHrp4UioqvlfDfzYEbD//q/uH998iCZReW/XgktSu3QpamLlQGSgQuVGm7bPYrd6CWDlkQj/H9JInJ7Qg3D075ijNKZiuOIiYDDU3vgB0yJ2Ry4OzgmXKw6cGSyaRN3nAud2Fj7XyEeaFnyDd7sCS53oqlRCjVcLb3MqJqouIE377pUbkOlutMy3WKcp34/gGSdJhmSGvpvobzvfLMXT7RXcHDYHOSAMAcymmUOkoFBZooCxpewZ6thVnTWsXVt4q7x343idBGQntaxE/fHlQv/nygLai4UBtyMRhqvMKxCPTQhbkJylF25nWUL1D+RLk1UkWxNhVrm2K/+XX/8d+vfnaD2ksxVpLgqSsntbms+/fhe1/+uJhYFlxwocGUn+ZdhiVfKB+nIbcaVJ/RFxOmWGSMeiJkoapYZy3Gph+ycJJvRz2YR1q8ppmbHfA4ctrKv9x5oxvGTGPDavdjFXD1AD6HSg9q+enH+zE7AxVKiJxPH58Hgqo9TIty7PC+sRuZvc0iboClDLilePCCz54U2gB5ofssHBVRC1itLEnqxpxosHpuaR/R+zOYJNqTGT3HPTxJiUhocZgRzWddK56amTCLjGf40J5kdS2awasj+gTlKQ6EuZ/j47WpP+w83uP7TjESMKL4c0SfM1E0sRVMU36rQEkvUeP3El/jX6Jg/P4nvURnP5wkS2eZIA1A+msnL7P+lQETUkNDjqK7fsz7+NE2Ai4LfdmVyUi3bvb7KdcaTt1Ew4vH+El6dOcG2UuSEml0OAtauyLihX4nlrw8MzHPbBZz72t4vf3Wzqeytdp6h/a1DdRs28b1Y7TJ+oQCVjVUaaiyq7iULRoWdvBrkgH+oKr7cajTY9QbGubXW7jWNvja26TMrSO0toGrRUuFcIpYn8ZZyJRVjlFYICo4HDiUH/xwb+Xwn+++mv4cTGfqWeQ1gzzNpmkWof5XSqSYTmRv3932drvJc2TJ4zrNBgAA</value>
+                </onHold>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>A_NLTF_1</value>
+                </Selection>
+                <Action>
+                    <value>ElementEdited</value>
+                </Action>
+                <Input>
+                    <value>1 0 0.5 2 1 0 -10 10 0.2 1</value>
+                </Input>
+                <onHold>
+                    <value>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</value>
+                </onHold>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>StartProblem</MessageType>
+                <ProblemName>Inicio</ProblemName>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>GroupDescriptionStart</MessageType>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>GroupDescriptionEnd</MessageType>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>NumberOfTables</MessageType>
+                <Number>0</Number>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminTextField</WidgetType>
+                <DorminName>dorminTextField6</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate textField (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (textField (name dorminTextField6)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=230,y=60</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminTextField</WidgetType>
+                <DorminName>dorminTextField5</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate textField (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (textField (name dorminTextField5)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=100,y=70</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminComboBox</WidgetType>
+                <DorminName>dorminComboBox2</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <ComboBoxItems>
+                    <value>Seleccione una opci&#243;n</value>
+                    <value>Lineal</value>
+                    <value>Semi-Lineal</value>
+                </ComboBoxItems>
+                <jessDeftemplates>
+                    <value>(deftemplate comboBox (slot name) (slot value) (multislot values))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (comboBox (name dorminComboBox2) (values  "Seleccione una opci&#243;n" "Lineal" "Semi-Lineal")))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=240,y=110</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminTextField</WidgetType>
+                <DorminName>dorminTextField4</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate textField (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (textField (name dorminTextField4)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=80,y=20</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminComboBox</WidgetType>
+                <DorminName>dorminComboBox1</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <ComboBoxItems>
+                    <value>Seleccione una opci&#243;n</value>
+                    <value>Primer Orden</value>
+                    <value>Segundo Orden</value>
+                    <value>Orden Superior</value>
+                </ComboBoxItems>
+                <jessDeftemplates>
+                    <value>(deftemplate comboBox (slot name) (slot value) (multislot values))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (comboBox (name dorminComboBox1) (values  "Seleccione una opci&#243;n" "Primer Orden" "Segundo Orden" "Orden Superior")))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=240,y=80</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminTextField</WidgetType>
+                <DorminName>dorminTextField3</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate textField (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (textField (name dorminTextField3)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=230,y=20</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminTextField</WidgetType>
+                <DorminName>dorminTextField2</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate textField (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (textField (name dorminTextField2)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=240,y=50</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminTextField</WidgetType>
+                <DorminName>dorminTextField1</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate textField (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (textField (name dorminTextField1)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=240,y=20</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminButton</WidgetType>
+                <DorminName>hint</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate button (slot name))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (button (name hint)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=116,y=5</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>hint</value>
+                </Selection>
+                <Action>
+                    <value>UpdateText</value>
+                </Action>
+                <Input>
+                    <value>Help</value>
+                </Input>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminButton</WidgetType>
+                <DorminName>done</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate button (slot name))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (button (name done)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=54,y=5</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>done</value>
+                </Selection>
+                <Action>
+                    <value>UpdateText</value>
+                </Action>
+                <Input>
+                    <value>Done</value>
+                </Input>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminLabel</WidgetType>
+                <DorminName>dorminLabel4</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate label (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (label (name dorminLabel4)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=10,y=50</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>dorminLabel4</value>
+                </Selection>
+                <Action>
+                    <value>UpdateText</value>
+                </Action>
+                <Input>
+                    <value>Salida en estado estable</value>
+                </Input>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminLabel</WidgetType>
+                <DorminName>dorminLabel2</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate label (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (label (name dorminLabel2)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=10,y=80</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>dorminLabel2</value>
+                </Selection>
+                <Action>
+                    <value>UpdateText</value>
+                </Action>
+                <Input>
+                    <value>Orden del Sistema</value>
+                </Input>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminLabel</WidgetType>
+                <DorminName>dorminLabel1</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate label (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (label (name dorminLabel1)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=10,y=20</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>dorminLabel1</value>
+                </Selection>
+                <Action>
+                    <value>UpdateText</value>
+                </Action>
+                <Input>
+                    <value>Voltaje de Excitaci&#243;n de la Planta</value>
+                </Input>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminTextField</WidgetType>
+                <DorminName>dorminTextField9</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate textField (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (textField (name dorminTextField9)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=230,y=90</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminTextField</WidgetType>
+                <DorminName>dorminTextField8</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate textField (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (textField (name dorminTextField8)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=230,y=60</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>InterfaceDescription</MessageType>
+                <WidgetType>DorminTextField</WidgetType>
+                <DorminName>dorminTextField7</DorminName>
+                <UpdateEachCycle>false</UpdateEachCycle>
+                <jessDeftemplates>
+                    <value>(deftemplate textField (slot name) (slot value))</value>
+                </jessDeftemplates>
+                <jessInstances>
+                    <value>(assert (textField (name dorminTextField7)))</value>
+                </jessInstances>
+                <ComponentDescription>v=true,x=230,y=30</ComponentDescription>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>StartStateEnd</MessageType>
+            </properties>
+        </message>
+    </startNodeMessages>
+    <node locked="false" doneState="false">
+        <text>Inicio</text>
+        <uniqueID>1</uniqueID>
+        <dimension>
+            <x>199</x>
+            <y>30</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state1</text>
+        <uniqueID>2</uniqueID>
+        <dimension>
+            <x>196</x>
+            <y>71</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state2</text>
+        <uniqueID>3</uniqueID>
+        <dimension>
+            <x>196</x>
+            <y>153</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state3</text>
+        <uniqueID>4</uniqueID>
+        <dimension>
+            <x>196</x>
+            <y>235</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state4</text>
+        <uniqueID>5</uniqueID>
+        <dimension>
+            <x>196</x>
+            <y>317</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state5</text>
+        <uniqueID>6</uniqueID>
+        <dimension>
+            <x>196</x>
+            <y>399</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state6</text>
+        <uniqueID>7</uniqueID>
+        <dimension>
+            <x>196</x>
+            <y>481</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state7</text>
+        <uniqueID>8</uniqueID>
+        <dimension>
+            <x>196</x>
+            <y>563</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state9</text>
+        <uniqueID>10</uniqueID>
+        <dimension>
+            <x>193</x>
+            <y>645</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state10</text>
+        <uniqueID>11</uniqueID>
+        <dimension>
+            <x>193</x>
+            <y>730</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state11</text>
+        <uniqueID>12</uniqueID>
+        <dimension>
+            <x>193</x>
+            <y>812</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state12</text>
+        <uniqueID>13</uniqueID>
+        <dimension>
+            <x>193</x>
+            <y>894</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state13</text>
+        <uniqueID>14</uniqueID>
+        <dimension>
+            <x>193</x>
+            <y>976</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state14</text>
+        <uniqueID>15</uniqueID>
+        <dimension>
+            <x>193</x>
+            <y>1058</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state15</text>
+        <uniqueID>16</uniqueID>
+        <dimension>
+            <x>193</x>
+            <y>1140</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state16</text>
+        <uniqueID>17</uniqueID>
+        <dimension>
+            <x>193</x>
+            <y>1222</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state17</text>
+        <uniqueID>18</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>1295</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state18</text>
+        <uniqueID>19</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>1377</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state19</text>
+        <uniqueID>20</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>1459</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state20</text>
+        <uniqueID>21</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>1541</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state21</text>
+        <uniqueID>22</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>1623</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state22</text>
+        <uniqueID>23</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>1705</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state23</text>
+        <uniqueID>24</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>1787</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state24</text>
+        <uniqueID>25</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>1869</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state25</text>
+        <uniqueID>26</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>1951</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state26</text>
+        <uniqueID>27</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2033</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state27</text>
+        <uniqueID>28</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2115</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state28</text>
+        <uniqueID>29</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2197</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state29</text>
+        <uniqueID>30</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2279</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state30</text>
+        <uniqueID>31</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2361</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state31</text>
+        <uniqueID>32</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2443</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state32</text>
+        <uniqueID>33</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2525</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state33</text>
+        <uniqueID>34</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2607</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state34</text>
+        <uniqueID>35</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2689</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state35</text>
+        <uniqueID>36</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2771</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state36</text>
+        <uniqueID>37</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2853</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state37</text>
+        <uniqueID>38</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>2935</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state38</text>
+        <uniqueID>39</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>3017</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="true">
+        <text>Done</text>
+        <uniqueID>40</uniqueID>
+        <dimension>
+            <x>316</x>
+            <y>3099</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state40</text>
+        <uniqueID>41</uniqueID>
+        <dimension>
+            <x>43</x>
+            <y>1219</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state41</text>
+        <uniqueID>42</uniqueID>
+        <dimension>
+            <x>341</x>
+            <y>1226</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state42</text>
+        <uniqueID>43</uniqueID>
+        <dimension>
+            <x>27</x>
+            <y>1321</y>
+        </dimension>
+    </node>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>1</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>V_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementCreated</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                    <onHold>
+                        <value>H4sIAAAAAAAAAH1UTWgTQRR+2WzStCm2tgoqCjlILRazUnqRnErS1oW1RGsjmIvTzTTZsJmdzk7+EMSzN4/evHirIB69iRfx6FW8eCkKggfP6pvdyV8rXXjZed+bee99+73J4U9IhQKudb2Q5uttLx+6Ddoi0nPz1KctymSY7wS+3IidF4e/DtY2L94yIOmAyYXXkrDgNEmHWD5hdWtHCo/VCxiTfU4P4AkkcN1mnozWPQErp1XChYsZXF1t6/m3za/O748GzNow6wZtJm1W9EkY2mDWhVezIaVeq/q99hDSYYPUgi7GezxQ2/r4cmDOFRRLBawYtFqE1XRnWV15XUXhXEyEdKV1D/tAPj4tVCHLqCwGjCEUSlis/o9uiouAY3TZUfQspGcN6VkDelaw18QkJSIJpjXkvoTz1VHN+7QnNz3q1wo9DgAJtHm0DJqJBtNoMxLmKzcqKAip09xO0BYuRfkWVJI8JskPG//wppm69KkpDTBtSDeoV29I/ExdryYbNiqB1o/qlNFyaE/RXrbFgGBeEcxrgq8/V46+X3m8ZQBEZwzOserSaVKOuH5p3H72foYbBlywYZoIN4yVhKzrCRcVj71p32OD9QwngrS0k+EeGyxFICMZUdgO8Xvxq1+FJKaVcHnsa9Zp0LLWhbtaurrpB0SiSOm9QNSoUNonq5COq09qMK67qRpSm+cmZ0BBZhXbUj2W6L72pyN/m7SoBrIRUBa0dmzPrr4OCMREK8RvD05NIVs2SpLRbk+CUbVHfl/F57FJ9Htj6xh3sBLeTU96nfgSRqqBnqo0WlKpqDE1XSke8VIzllKhv/ioGA6E/j6T41WQd0tHu7RiDUYiMTyv0pl4/I8q01booio6jCdh7BmiM2Pg1BBVrYLuxZxENZkRamgkMZE3MUY0waN2suoy4fdcL8r4fwrXpSKPnvENmfVirqOkkXBGCsJCDyc7Fx/IlHTs+DEu4ex1DO7Y27nyrrOzkSs/cPjJ5Ka6xBJAQcsnw4mbysmpn5VjUQPbZVz9MFQHp+LOu0dLnR9vXw1v58CiI9YYkplAoucEksLiFa7QtWELy/8AKVNBwycGAAA=</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage></buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">V_1</matcherParameter>
+                <matcherParameter name="action">ElementCreated</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>1</sourceID>
+        <destID>2</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="3">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>3</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>n0</value>
+                    </Selection>
+                    <Action>
+                        <value>NetCreated</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                    <connectionsList>
+                        <value>H4sIAAAAAAAAAK1QMUvDQBj9GhItVqgUXCoK/oGcBLdOoiiBINRiEYPDkZ7JleZSclcbC+o/EEcXQXB18D+4Oevm4CJODoK7fkkaBcXNDx7H3ffu8d67fgVDxrA45JKZ/oCb0gtYSBX3TC8SgnmKR8LhUu1dbRw174/PNajswtR+HIUtFXPh26D7Me/YYKSHNT6XbSgLplajgVA2TErmSz5iNlQk66Em62wyfK8WtxbzQyYUCicrCZfrPJa41kdRFLqgo5BUMO86qUmCJsmXSYK7NapoI+kDzgyijNARJYT1MZ70UhrEhciPpIWI9fzQqs69n2oAmd4CNlP/m/+4Qy7ayduJBjpmDGmSxrRhWuZpvDS8g/ZpyBTUnC49oKRHhU/y5hpuVkxKVTDr5ns6VGQLO0Faj+WprNS7Ak0sYYAxz0Se+c1TzbWXbdYmhXELjdd+825vukb9rqsywxMB436ANRtD3lGBDaUEcZj9v0ScIZ4Q/f+dT33df7JxAgAA</value>
+                    </connectionsList>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">n0</matcherParameter>
+                <matcherParameter name="action">NetCreated</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>2</sourceID>
+        <destID>3</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>5</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>GND_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementCreated</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                    <onHold>
+                        <value>H4sIAAAAAAAAAJVSzWsTQRR/2XyYNIVKqyCiUEGK+LELxYOQU2lsXEjFr+ZgLk53p5sJu7Pr7CTZIIhnb/4JHrwpiN68iRfx6FW8eCkK3nqvb3Zn86FFceDxPuZ9/d57L39CORawNmIxNb0BM2OnRwMimWNSnwaUy9j0uHs9ky+3Dt5ub1x7bgAkAi79LQgFRwrm6MjWs29bX9sHHw1YtGHRCQdc2nzTJ3FsQ8kTzLWhrNi65lfvQyXuETcc4X8ShcptjKwNS46gWCrkm2EQEO5KWG73yZBYPuGedRdrcq/RhrruZEN5w4nMhYykdQf7Qk+fNrpQ51RuhpyjKZaw0j0qUTkSYYS/F9oKroVwrQlcK4drhbt9TNIkkmBaQ+5JONmd1rxHE7nFqO82kggACkjHkapIJSSoIS1LqF680hI4Ghc3sqyCTQw2Jw1/eN0vn/7UlwaUbKj0KPN6Esc1Yq7s2VBIkMZp/lVNT7DU6kDkwEwFzNTAXn3u7H8/+6ilVpn2FP3rDKYQv/RuPH2/EBkGnLKhRoQTZwuFusOEg4vPtJrPeC4vRESQQCvViPFcFKFMt4n7HRI/ydi4C0VMK+HMzBA9GgbWhnDWm+e3/JBI3E1lNxQuFQ/hMRS7UMmqz49+dt0l1ZByXppfvTKVutiW6rFJ97ReS/WbJKDaUE8NtwR1f/PZ4UxqQwa0Q/xBHnUM0fJpkqpWEwlG157qY/V/HJtEPZmRM3sbKwkWMMmGaSIjXVr+ypoXNFdHVY5SXOq0DEWH+NQf3oOez/x1NeTt5v4O7Vj5RcBAxa+oVHOZJm/OWtD5jYm1OGMtTq2H+v3pq8mI0sL1SQv/IxUixIdz3X73YG34482LyXmrxKnXuSM1mNckFDrRL4bBnX8cBQAA</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">GND_1</matcherParameter>
+                <matcherParameter name="action">ElementCreated</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>3</sourceID>
+        <destID>4</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="3">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>7</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>n1</value>
+                    </Selection>
+                    <Action>
+                        <value>NetCreated</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                    <connectionsList>
+                        <value>H4sIAAAAAAAAAJVQPUvDUBS9DYmWtlApuFQU/QOJBrdOoiiBItRiEYvDI32mrzQvNe/FxoL1H4ijiyC4Ovgf3Jx1c3ARJ0HBXW+SVkVR6IXD+7jnnXfOvXwGTfgw12WC6k7AdGE3qUsks3Xb45zaknm8zITcuVg7rNz2TxXIbkNm1/fcqvQZdyxQHZ81LNCixRysixakOZXLXsClBeOCOoL1qAVZQduoSRvrFO/zw1OVOi7lEoXDpZCJVeYLbKs9z3ProKKQkDBdL0cmDTRpfJo0sLdCJCmFHcCaQKQRKkJBmO+DSuEhFfhDkR9JhyLm4101P/V2jE9jvRmcTPFv/v2WcVYLX48UUDGjS8IopgU5kaSxo/BltE9cKqFQbpF9YrQJd4xkcqV6PJiIKmGynvRJVxobOBOktWmSyoy8S1D4PAYY8HTk6V88WVl52qQ1Y2jcROOF37zrq5ZWvGnJ2PBYkzKniWPWuqwhmxakQsRB/P4ccYJ4QHRGLrEHfdC+O18IoqtM7Cza5XD3MvgDkZod/ZN/6gMuEbqF1AIAAA==</value>
+                    </connectionsList>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">n1</matcherParameter>
+                <matcherParameter name="action">NetCreated</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>4</sourceID>
+        <destID>5</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>9</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>!_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementCreated</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                    <onHold>
+                        <value>H4sIAAAAAAAAAJVTz2sTQRR+u03SpKm0tAoqChalFIq7UMRLTqWxdSGW+qM5mIvTzTSZsDu7zk6SDYJ/gCf9I7wpiEdv4kU8ePCqXrwUBW8eW+Ob/ZVEacGFx3vvm5n3vm/e7IufkA8ErPRZQI1WlxmB3aYukcw2qENdymVg+MLbozfi7Evx4/b1VfOUDloN8j4nLpWwUOuQHjEdwlvmXSkYb1VCAasn1cTAxp12Unbr2bfNr7Vf73WYtWDW9rpcWnzDIUFgQa4lWNOCvHJrib92HwpBmzS9Pq6Hvqe2DdDVYM4WFFt5fMNzXcKbD+GxolpOOq+rVTgdEyZ9ad5BHsjboZUGlDmVGx7nCAUSFhv/ylKahefj6kpNyTNRnpnJM1N5prfXwSJVIgmW1eW+hDONUc97NJSbjDrNSugDgIY2j1ZEy6HBObRpCcWlq/Uddfc4oAV12MDDRkb43atO/vyHjtQhZ0GhTVmrLfF6+qwp2xZoIdogqn8pNu0p+p2uSIUZSpiRCHv5qX7w/eKjLR0g5uRj0+WTJjiS+Ll988nbGV/X4awFJSLsIB4glG0mbBx0nJUcxtN4xieCuElS9BlPQ+HJaHo4zx5xwtgNGjCFZSVcGLvEFvVcc13Ya9Urm45HJM6msOeJJhVq5FMNKMTdJ69+fNw5RUhtnpscvYJyDaSlOFbpfpKXonwbX3wClCNgR9DmX3t2OZMJEAutE6ebnppGtXxUpJikoQS9YY3ygVqfR5KYh2NxjNewk2Auk6wXFdKioaXfdOK1xKtHlfcjXSUM9cRgOBz+xveQ3M/k66rI29WDXVo30xcBXXV+UZWPK+Hp4VgTmEBVS03FGXo4hh5OoNqxe3MT6FHKXfGeQKdS1I9IljO6/xNpPt4FzuDWmwfLvR+vn2e/gmoQ7bqcED0aZVmFLJOgLfn+H17Y8zhYBQAA</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">!_1</matcherParameter>
+                <matcherParameter name="action">ElementCreated</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>5</sourceID>
+        <destID>6</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="3">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>11</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>n2</value>
+                    </Selection>
+                    <Action>
+                        <value>NetCreated</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                    <connectionsList>
+                        <value>H4sIAAAAAAAAAK1Qy0rDQBS9qYmKFiqCG0XRH0g0uHMlFiUQhFoUsQgO6ZhMaSaamdooWP9AXLoRBLcu/Ad3rnXnwo24EhTc6520VfEFihcO8zpz7jn39B4MEcNYnQlq+jVmCi+gIZHMM72Ic+pJFnGXCbl6MrdbuGwcZqB3BXrW4ygsyphx3wHdj1nZAUMtdmuddKCbUzkT1bh0oEtQX7Ad6kCvoFXUpOV5ive59qlI/ZByicLJdMLELIsFPus7URSWQEchIWG45CqTFpq0Xk1a+JYnkkwlG4DVh+hG6IgOhP3cKg0PWi1ui3xI2haxb6+KuaGn/QxAqjeCkxn8nn+9bB0tJY97GdAxY0gSFdOBrGim8VR4F+2TkErodytki1hVwn2rObmpUjoYRZUwUGq+k7q0FnAmSKvSZipbeZeQ4eMYoMUzkWe+8WQhf7dIl6y2cRuN93/mnZ9VjMGLikwNdwaU+QGO2aizsgwc0BLEdvr/GHGAuEFs/LrEJjTAeO98oqauelJnapfF3UOrB0Ib/Yce9hc9MIum9Nf+lOOHegF8rXmRNwMAAA==</value>
+                    </connectionsList>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">n2</matcherParameter>
+                <matcherParameter name="action">NetCreated</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>6</sourceID>
+        <destID>7</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>13</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>!_2</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementCreated</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                    <onHold>
+                        <value>H4sIAAAAAAAAAJVTz2sTQRR+u03SpKm0tAoiChalFIq7UMRLLpbG1oVY6o/2YC5ON9Nkwu7sOjtJNgj+Ad78I7wpiEdv4kU8ePCqXrwUBW8eW+Ob3dn8UCy48Hjzvpl57/vmvX3+A/KRgJUei6jV7DArclvUJ5K5FvWoT7mMrFAE+/RGGn0ufti+tmqfMsGoQT7kxKcSFmpt0iW2R3jTvisF481KLGD1pJy4cPGkq9NuPf26+aX2850Jsw7MukGHS4dveCSKHMg1BWs4kFduTfur96EQtUgj6OF+HAbqWB9dDeZcQbFUwDcC3ye88RAeK6plXXld7cLplDDpSfsO8kDeHq3Uocyp3Ag4RyiSsFj/W5bSLIIQd1dqSp6N8uyhPDuTZwf7bUxSJZJgWlMeSDhTH9W8R2O5yajXqMQhAJho82hFtBwa5NEKEopLV/Z21NtjgxbUZQsvW0PCb1+28+fet6UJOQcKLcqaLYnP02MN2XLAiNH6Sf6L2nbQrndEJsxSwiwt7MXHvcNvFx5tIZfkjhFi0eWTOjiS+Kl188mbmdA04awDJSLcKG0glF0mXGx0GpU8xrP1TEgE8XVQDBnPliKQSfewn13ixanr12EK00o4P/aITRr49rpw16qXN72ASOxNYT8QDSpUy6fqUEirTz79eLtzipA6PDfZegXl6khLcazSAx2XkngbJ14D5QTYEbTxx5ldzqQGUqF7xOtkt6ZRLR8lKeowlmDWnVHcV/vzSBLjeGyd4jWsJJjPJOsmiYykadk3rb2hvRqqfJjoKul5UwaDweAXzoN+n8npqsjb1cNdumdnEwEddX9RpU8z4e3BWBGYQFVJQ62H6NEYejSBGv88m5tAjzPuivcEOpWhYUKyPKT7PysjxLfAHtx6/WC5+/3Vs+GvoAokpy5posejaJhhGEkwlsLwN9OgsmBYBQAA</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">!_2</matcherParameter>
+                <matcherParameter name="action">ElementCreated</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>7</sourceID>
+        <destID>8</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>19</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>V_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementEdited</value>
+                    </Action>
+                    <Input>
+                        <value>AC 0 type DC DC 0.5</value>
+                    </Input>
+                    <onHold>
+                        <value>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</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Usando pasos de 0.5 voltios identifique la Zona Muerta.</hintMessage>
+            <hintMessage>La Zona muerta causa que la salida sea cero para entradas cercanas a cero. Incremente la entrada en pasos de 0.5 voltios.</hintMessage>
+            <hintMessage>Cambie el valor de V1 a 0.5, luego simule, observe los resultados. Luego, cambie el valor de V1 a 1, simule y observe. Por &#250;ltimo cambie el valor de V1 a 1.5 simule.</hintMessage>
+            <hintMessage>Noogg, usted es muy bruto cambie de carrera.!</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">V_1</matcherParameter>
+                <matcherParameter name="action">ElementEdited</matcherParameter>
+                <matcherParameter name="input">AC 0 type DC DC 0.5</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>10</sourceID>
+        <destID>11</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>21</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>SimulationPanel</value>
+                    </Selection>
+                    <Action>
+                        <value>TRAN_SimulationLauched</value>
+                    </Action>
+                    <Input>
+                        <value>.TRAN 0.1 20 0 0.1.options TEMP=27</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Usando pasos de 0.5 voltios identifique la Zona Muerta.</hintMessage>
+            <hintMessage>La Zona muerta causa que la salida sea cero para entradas cercanas a cero. Incremente la entrada en pasos de 0.5 voltios.</hintMessage>
+            <hintMessage>Cambie el valor de V1 a 0.5, luego simule, observe los resultados. Luego, cambie el valor de V1 a 1, simule y observe. Por &#250;ltimo cambie el valor de V1 a 1.5 simule.</hintMessage>
+            <hintMessage>Noogg, usted es muy bruto cambie de carrera.!</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">SimulationPanel</matcherParameter>
+                <matcherParameter name="action">TRAN_SimulationLauched</matcherParameter>
+                <matcherParameter name="input">.TRAN 0.1 20 0 0.1.options TEMP=27</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>11</sourceID>
+        <destID>12</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>23</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>V_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementEdited</value>
+                    </Action>
+                    <Input>
+                        <value>AC 0 type DC DC 1</value>
+                    </Input>
+                    <onHold>
+                        <value>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</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'AC 0 type DC DC 1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">V_1</matcherParameter>
+                <matcherParameter name="action">ElementEdited</matcherParameter>
+                <matcherParameter name="input">AC 0 type DC DC 1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>12</sourceID>
+        <destID>13</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>25</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>SimulationPanel</value>
+                    </Selection>
+                    <Action>
+                        <value>TRAN_SimulationLauched</value>
+                    </Action>
+                    <Input>
+                        <value>.TRAN 0.1 20 0 0.1.options TEMP=27</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Usando pasos de 0.5 voltios identifique la Zona Muerta.</hintMessage>
+            <hintMessage>La Zona muerta causa que la salida sea cero para entradas cercanas a cero. Incremente la entrada en pasos de 0.5 voltios.</hintMessage>
+            <hintMessage>Cambie el valor de V1 a 0.5, luego simule, observe los resultados. Luego, cambie el valor de V1 a 1, simule y observe. Por &#250;ltimo cambie el valor de V1 a 1.5 simule.</hintMessage>
+            <hintMessage>Noogg, usted es muy bruto cambie de carrera.!</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">SimulationPanel</matcherParameter>
+                <matcherParameter name="action">TRAN_SimulationLauched</matcherParameter>
+                <matcherParameter name="input">.TRAN 0.1 20 0 0.1.options TEMP=27</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>13</sourceID>
+        <destID>14</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>27</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>V_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementEdited</value>
+                    </Action>
+                    <Input>
+                        <value>AC 0 type DC DC 1.5</value>
+                    </Input>
+                    <onHold>
+                        <value>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</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Usando pasos de 0.5 voltios identifique la Zona Muerta.</hintMessage>
+            <hintMessage>La Zona muerta causa que la salida sea cero para entradas cercanas a cero. Incremente la entrada en pasos de 0.5 voltios.</hintMessage>
+            <hintMessage>Cambie el valor de V1 a 0.5, luego simule, observe los resultados. Luego, cambie el valor de V1 a 1, simule y observe. Por &#250;ltimo cambie el valor de V1 a 1.5 simule.</hintMessage>
+            <hintMessage>Noogg, usted es muy bruto cambie de carrera.!</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">V_1</matcherParameter>
+                <matcherParameter name="action">ElementEdited</matcherParameter>
+                <matcherParameter name="input">AC 0 type DC DC 1.5</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>14</sourceID>
+        <destID>15</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>29</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>SimulationPanel</value>
+                    </Selection>
+                    <Action>
+                        <value>TRAN_SimulationLauched</value>
+                    </Action>
+                    <Input>
+                        <value>.TRAN 0.1 20 0 0.1.options TEMP=27</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Usando pasos de 0.5 voltios identifique la Zona Muerta.</hintMessage>
+            <hintMessage>La Zona muerta causa que la salida sea cero para entradas cercanas a cero. Incremente la entrada en pasos de 0.5 voltios.</hintMessage>
+            <hintMessage>Cambie el valor de V1 a 0.5, luego simule, observe los resultados. Luego, cambie el valor de V1 a 1, simule y observe. Por &#250;ltimo cambie el valor de V1 a 1.5 simule.</hintMessage>
+            <hintMessage>Noogg, usted es muy bruto cambie de carrera.!</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">SimulationPanel</matcherParameter>
+                <matcherParameter name="action">TRAN_SimulationLauched</matcherParameter>
+                <matcherParameter name="input">.TRAN 0.1 20 0 0.1.options TEMP=27</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>15</sourceID>
+        <destID>16</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>31</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminComboBox1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>Primer Orden</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Seleccione el orden del sistema segun la experimentaci&#243;n realizada.</hintMessage>
+            <hintMessage>Las respuestas sin cambio de concavidad suelen ser de primer orden. Las respuestas con cambio de concavidad suelen ser de segundo orden u orden superior.</hintMessage>
+            <hintMessage>Seleccione la opcion 'Primer Orden' en el menu resaltado.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminComboBox1</matcherParameter>
+                <matcherParameter name="action">UpdateComboBox</matcherParameter>
+                <matcherParameter name="input">Primer Orden</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>16</sourceID>
+        <destID>17</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>33</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminComboBox2</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>Semi-Lineal</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'Semi-Lineal' from the highlighted menu.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminComboBox2</matcherParameter>
+                <matcherParameter name="action">UpdateComboBox</matcherParameter>
+                <matcherParameter name="input">Semi-Lineal</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>17</sourceID>
+        <destID>18</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>35</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminTextField9</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>1</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminTextField9</matcherParameter>
+                <matcherParameter name="action">UpdateTextField</matcherParameter>
+                <matcherParameter name="input">1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>18</sourceID>
+        <destID>19</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>37</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>V_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementEdited</value>
+                    </Action>
+                    <Input>
+                        <value>AC 0 type DC DC 5</value>
+                    </Input>
+                    <onHold>
+                        <value>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</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'AC 0 type DC DC 5' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">V_1</matcherParameter>
+                <matcherParameter name="action">ElementEdited</matcherParameter>
+                <matcherParameter name="input">AC 0 type DC DC 5</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>19</sourceID>
+        <destID>20</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>39</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>SimulationPanel</value>
+                    </Selection>
+                    <Action>
+                        <value>TRAN_SimulationLauched</value>
+                    </Action>
+                    <Input>
+                        <value>.TRAN 0.1 20 0 0.1.options TEMP=27</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '.TRAN 0.1 20 0 0.1.options TEMP=27' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">SimulationPanel</matcherParameter>
+                <matcherParameter name="action">TRAN_SimulationLauched</matcherParameter>
+                <matcherParameter name="input">.TRAN 0.1 20 0 0.1.options TEMP=27</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>20</sourceID>
+        <destID>21</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>41</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>V_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementEdited</value>
+                    </Action>
+                    <Input>
+                        <value>AC 0 type DC DC 10</value>
+                    </Input>
+                    <onHold>
+                        <value>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</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'AC 0 type DC DC 10' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">V_1</matcherParameter>
+                <matcherParameter name="action">ElementEdited</matcherParameter>
+                <matcherParameter name="input">AC 0 type DC DC 10</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>21</sourceID>
+        <destID>22</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>43</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>SimulationPanel</value>
+                    </Selection>
+                    <Action>
+                        <value>TRAN_SimulationLauched</value>
+                    </Action>
+                    <Input>
+                        <value>.TRAN 0.1 20 0 0.1.options TEMP=27</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '.TRAN 0.1 20 0 0.1.options TEMP=27' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">SimulationPanel</matcherParameter>
+                <matcherParameter name="action">TRAN_SimulationLauched</matcherParameter>
+                <matcherParameter name="input">.TRAN 0.1 20 0 0.1.options TEMP=27</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>22</sourceID>
+        <destID>23</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>45</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>V_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementEdited</value>
+                    </Action>
+                    <Input>
+                        <value>AC 0 type DC DC 15</value>
+                    </Input>
+                    <onHold>
+                        <value>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</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'AC 0 type DC DC 15' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">V_1</matcherParameter>
+                <matcherParameter name="action">ElementEdited</matcherParameter>
+                <matcherParameter name="input">AC 0 type DC DC 15</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>23</sourceID>
+        <destID>24</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>47</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>SimulationPanel</value>
+                    </Selection>
+                    <Action>
+                        <value>TRAN_SimulationLauched</value>
+                    </Action>
+                    <Input>
+                        <value>.TRAN 0.1 20 0 0.1.options TEMP=27</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '.TRAN 0.1 20 0 0.1.options TEMP=27' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">SimulationPanel</matcherParameter>
+                <matcherParameter name="action">TRAN_SimulationLauched</matcherParameter>
+                <matcherParameter name="input">.TRAN 0.1 20 0 0.1.options TEMP=27</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>24</sourceID>
+        <destID>25</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>49</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>V_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementEdited</value>
+                    </Action>
+                    <Input>
+                        <value>AC 0 type DC DC 20</value>
+                    </Input>
+                    <onHold>
+                        <value>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</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'AC 0 type DC DC 20' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">V_1</matcherParameter>
+                <matcherParameter name="action">ElementEdited</matcherParameter>
+                <matcherParameter name="input">AC 0 type DC DC 20</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>25</sourceID>
+        <destID>26</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>51</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>SimulationPanel</value>
+                    </Selection>
+                    <Action>
+                        <value>TRAN_SimulationLauched</value>
+                    </Action>
+                    <Input>
+                        <value>.TRAN 0.1 20 0 0.1.options TEMP=27</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '.TRAN 0.1 20 0 0.1.options TEMP=27' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">SimulationPanel</matcherParameter>
+                <matcherParameter name="action">TRAN_SimulationLauched</matcherParameter>
+                <matcherParameter name="input">.TRAN 0.1 20 0 0.1.options TEMP=27</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>26</sourceID>
+        <destID>27</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>53</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>V_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementEdited</value>
+                    </Action>
+                    <Input>
+                        <value>AC 0 type DC DC 25</value>
+                    </Input>
+                    <onHold>
+                        <value>H4sIAAAAAAAAAJUWXWgcRfi7v9wladokttZqK6FKKy3mamwRjUjjXa69em3SXntiAupkd+5u0r3dzezs5U5BBN/6Ij4IKj60YPWlgvoo+CBFEemToD6IgkItFkQfBPFF/b7Z3bu9pBZcmJ35fub7me+b75srv0LGk7B/XXh8uuGLac9o8hZTwpjmFm9xW3nTbcdS8wHw5pXf1w6Xdj2ahFQF0q4ULQWTlVXWZnmL2Y18VUlhN2aRprouX4OXIIFr3xZKrzsSDt5OEy4MlGCE2o699lPp+8ofXyRhSxm2GI5vq7JdsJjnlSHdkMIsQ4ammXA+vARDXpOZzjrSO65DbF2cKrDNkBxVOXbBabWYbYaWjYaa54gK2wNH2LrKn0E70B+Lzy7DqM1VwbFtRHkK7li+lbsZVzouUh+okHt5dC/fcy8fuZd3VlZRSJEphmKTqq5gx3Jf51neUSXBLXO24wJAAsc4jhyONA4YxjGiYLz2YA0Dwhp8qur40uAYvkkSMo1CpnuGX/1gNXP3l6sqCekyDDW5aDQVHtO6MFWzjJHA0dV6FnFM4XgZx0VfRg5Ok4PToYPvf1W78cueF48lAfSepIKkfYh+D6H2fbcLad/n75rHL3w64iaTcFcZhpk0vCCiMGoIaWDkA2jYEna0HnGZZK0QyLnCjpbSUTqcGOA2szrB1F2GFIpVsDt2qg3utPJz0pgp3l+yHKYwWEMrjjS5pBxILcNQoH0wFvH4p8kgYp4YzAVCpZfRLLKxyOshPKzhU6zFQ8SoRixKbm7gORdeC0QEjtaY5Ue7suit3ReSC8EOHvpyuQ93iT6JRiLcia0DfAU14R0VSrSDy6ijB2F2DeFIUTRDHGVZxtV+Ua5liPQPfkTDxAjPZzDNZtXp4o1zvJaPUiPR20/i0rj9b1LjE3YHKe3RUxD7etiRGDLbw5KpENqSHsSGzvSxyRCTGJCbiDmacLU5o3Sp8DznCiqoV7guFlz9xRlyc4WpNoVGwVYlme0JzOypYEOuGNI2bnMVTBxAYrV8amrxXKU6P7X4dMXdLDxNl1kBEOrAZnLiEAF70bKZIxuo+hK69LMxOpgVJz9+fl/75keXe7c0GnrLTAyTG8DobxMmg8prG8LeL1EHj65dLb5x6K9IV2qgCvX4vvn64sTWD+dSKUiVIWs4lt+yvQLkuNF0Ck0my3CvinirXApmiRe4SdWixqWHFxw7xp0DYrGAu46NAfixcOH6J4nfrqcguwS7VphxviGxOqAY9WS3YFGMCo7Jl2Aci5JxvuTIeZutWLx8cgn1m0JpALZ4uumgqnkb+8nWHlhVTGKp2aviSm9pI3U7ZIo6XP8Yettev/nuM98+/s5bKbgPi9cKmektuOi8cVvBS5Dl2mbzBAzzNrKdZN559LbuGL53VrI28jHrKd71At/MJRjWtMC3sOwvwZho2I7kZ7jLBNXP3cIrxUUg9wIusIWaHLXmhLeI50niRlqsU0Wz8FQJEHYPmKDyM99xLWEIZXU1bszm6/Nkp7dgW90lLH2S13s7MnhRBMrMtoUntIGD7agCE8zAfqaJWGXpUBXs1+nXyUckYQnVzc9tZMS6PtJPAmyT/WJecCxHIn3MaGLN4lXfdR2JkvcGLCscr3R+ERs4l6pbiPNQszB86eESJmICNYo0mrjrLJMNjuJ29RlM28wXeyTsIZObI4Ymhg3HV8LK4wnRs6mO3ijY1hdVQgRpqmP8At8oz55AwyzHYNS3JmNSKhqH/NkwbgOvmqLAnkyJpRmCWJK0eVQc9Rp8FeVcziXpJbiAmlzH9el1E9dUw1uizyAXxVhLCooB1eNEUEbGIUGrnVGdxp9GPIvjORz3ulg5tsauDMYqcXnnK+OvPuwnIVOCoTqz3CYr6/TxeQWSBppyT98rg7YEQa66zKCWPVyXjZWwZCeXS9jk6+2ot54IeiA1EyqnqH1bX7sOrLOaXf9zMnExCcly0Bji5xM9gLYFzFMmn6L8c8LaTgLHegLpFD+7dOTnaz/UvBQMlenq/sdlL2HPcPB20lGiWk9PGU91LVS/vX6Gr/ncU9ycU/gmW/EVArAjFpDjzGvqmja7ydrE3FEdiy30w44xVET1TqMTWLtnc71akFQ+9Qvr85vvzV9627iWhAS+1Jw+QUvOum4njGvUW6lnETLs5AhnmS6oFTIo63aCF8Zj/zNPKsG24/HYEeJkdO4EnA7nsz2zoo6XCDpozC7iq4Um0fSIbrS6Df8Lp7KYsBUNAAA=</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'AC 0 type DC DC 25' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">V_1</matcherParameter>
+                <matcherParameter name="action">ElementEdited</matcherParameter>
+                <matcherParameter name="input">AC 0 type DC DC 25</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>27</sourceID>
+        <destID>28</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>55</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>SimulationPanel</value>
+                    </Selection>
+                    <Action>
+                        <value>TRAN_SimulationLauched</value>
+                    </Action>
+                    <Input>
+                        <value>.TRAN 0.1 20 0 0.1.options TEMP=27</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '.TRAN 0.1 20 0 0.1.options TEMP=27' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">SimulationPanel</matcherParameter>
+                <matcherParameter name="action">TRAN_SimulationLauched</matcherParameter>
+                <matcherParameter name="input">.TRAN 0.1 20 0 0.1.options TEMP=27</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>28</sourceID>
+        <destID>29</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>57</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminTextField7</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>10</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '10' in the highlighted field.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminTextField7</matcherParameter>
+                <matcherParameter name="action">UpdateTextField</matcherParameter>
+                <matcherParameter name="input">10</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>29</sourceID>
+        <destID>30</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>59</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminTextField8</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>0.1</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '0.1' in the highlighted field.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminTextField8</matcherParameter>
+                <matcherParameter name="action">UpdateTextField</matcherParameter>
+                <matcherParameter name="input">0.1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>30</sourceID>
+        <destID>31</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>61</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>V_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementEdited</value>
+                    </Action>
+                    <Input>
+                        <value>AC 0 type DC DC 15</value>
+                    </Input>
+                    <onHold>
+                        <value>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</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'AC 0 type DC DC 15' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">V_1</matcherParameter>
+                <matcherParameter name="action">ElementEdited</matcherParameter>
+                <matcherParameter name="input">AC 0 type DC DC 15</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>31</sourceID>
+        <destID>32</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>63</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>SimulationPanel</value>
+                    </Selection>
+                    <Action>
+                        <value>TRAN_SimulationLauched</value>
+                    </Action>
+                    <Input>
+                        <value>.TRAN 0.1 20 0 0.1.options TEMP=27</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '.TRAN 0.1 20 0 0.1.options TEMP=27' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">SimulationPanel</matcherParameter>
+                <matcherParameter name="action">TRAN_SimulationLauched</matcherParameter>
+                <matcherParameter name="input">.TRAN 0.1 20 0 0.1.options TEMP=27</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>32</sourceID>
+        <destID>33</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>65</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminTextField3</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>1.55</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '1.55' in the highlighted field.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminTextField3</matcherParameter>
+                <matcherParameter name="action">UpdateTextField</matcherParameter>
+                <matcherParameter name="input">1.55</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>33</sourceID>
+        <destID>34</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>67</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminTextField6</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>3.75</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '3.75' in the highlighted field.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminTextField6</matcherParameter>
+                <matcherParameter name="action">UpdateTextField</matcherParameter>
+                <matcherParameter name="input">3.75</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>34</sourceID>
+        <destID>35</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>69</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminTextField1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>15</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '15' in the highlighted field.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminTextField1</matcherParameter>
+                <matcherParameter name="action">UpdateTextField</matcherParameter>
+                <matcherParameter name="input">15</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>35</sourceID>
+        <destID>36</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>71</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminTextField2</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>7.5</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '7.5' in the highlighted field.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminTextField2</matcherParameter>
+                <matcherParameter name="action">UpdateTextField</matcherParameter>
+                <matcherParameter name="input">7.5</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>36</sourceID>
+        <destID>37</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>73</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminTextField4</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>0.5</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '0.5' in the highlighted field.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminTextField4</matcherParameter>
+                <matcherParameter name="action">UpdateTextField</matcherParameter>
+                <matcherParameter name="input">0.5</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>37</sourceID>
+        <destID>38</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>75</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminTextField5</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>4</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '4' in the highlighted field.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminTextField5</matcherParameter>
+                <matcherParameter name="action">UpdateTextField</matcherParameter>
+                <matcherParameter name="input">4</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>38</sourceID>
+        <destID>39</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>77</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>done</value>
+                    </Selection>
+                    <Action>
+                        <value>ButtonPressed</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>You have answered all the questions. Please click on the Done button to proceed to the next problem.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">done</matcherParameter>
+                <matcherParameter name="action">ButtonPressed</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>39</sourceID>
+        <destID>40</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>17</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>SimulationPanel</value>
+                    </Selection>
+                    <Action>
+                        <value>TRAN_SimulationLauched</value>
+                    </Action>
+                    <Input>
+                        <value>.TRAN 0.1 20 0 0.1.options TEMP=27</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Verifique la existencia de un Offset antes de realizar los analisis de ganancia.</hintMessage>
+            <hintMessage>Realice una simulaci&#243;n con excitaci&#243;n cero. Para verificar si la respuesta de la planta es diferente de cero.</hintMessage>
+            <hintMessage>Comfigure una simulaci&#243;n por 20 segundos con paso de 0.1 segundos y Observe la salida de la planta.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">SimulationPanel</matcherParameter>
+                <matcherParameter name="action">TRAN_SimulationLauched</matcherParameter>
+                <matcherParameter name="input">.TRAN 0.1 20 0 0.1.options TEMP=27</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>8</sourceID>
+        <destID>10</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>82</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminComboBox1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>Segundo Orden</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, el sistema no es del orden seleccionado.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'Segundo Orden' from the highlighted menu.</hintMessage>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminComboBox1</matcherParameter>
+                <matcherParameter name="action">UpdateComboBox</matcherParameter>
+                <matcherParameter name="input">Segundo Orden</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>16</sourceID>
+        <destID>41</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>84</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminComboBox1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>Orden Superior</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, el sistema no es del orden seleccionado.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'Orden Superior' from the highlighted menu.</hintMessage>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminComboBox1</matcherParameter>
+                <matcherParameter name="action">UpdateComboBox</matcherParameter>
+                <matcherParameter name="input">Orden Superior</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>16</sourceID>
+        <destID>42</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>86</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>dorminComboBox2</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>Lineal</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, el sistema presenta no linealidades fuertes.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'Lineal' from the highlighted menu.</hintMessage>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">dorminComboBox2</matcherParameter>
+                <matcherParameter name="action">UpdateComboBox</matcherParameter>
+                <matcherParameter name="input">Lineal</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>17</sourceID>
+        <destID>43</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <EdgesGroups ordered="true">
+        <group name="SearchingSaturation" ordered="true" reenterable="false">
+            <link id="53"/>
+            <link id="41"/>
+            <link id="49"/>
+            <link id="43"/>
+            <link id="37"/>
+            <link id="39"/>
+            <link id="47"/>
+            <link id="55"/>
+            <link id="51"/>
+            <link id="45"/></group>
+        <group name="DeadZoneFound" ordered="false" reenterable="false">
+            <link id="35"/></group>
+        <group name="BuildingThe Circuit" ordered="false" reenterable="false">
+            <link id="7"/>
+            <link id="11"/>
+            <link id="5"/>
+            <link id="13"/>
+            <link id="1"/>
+            <link id="3"/>
+            <link id="9"/></group>
+        <group name="WorkpointSimulation" ordered="false" reenterable="false">
+            <link id="63"/>
+            <link id="61"/></group>
+        <group name="IdentifyingSystemType" ordered="false" reenterable="false">
+            <link id="31"/>
+            <link id="33"/></group>
+        <group name="FinalIdentification" ordered="true" reenterable="true">
+            <link id="75"/>
+            <link id="73"/></group>
+        <group name="SearchingDeadZone" ordered="true" reenterable="false">
+            <link id="27"/>
+            <link id="21"/>
+            <link id="19"/>
+            <link id="25"/>
+            <link id="17"/>
+            <link id="29"/>
+            <link id="23"/></group>
+        <group name="WorkpointAnalysis" ordered="false" reenterable="false">
+            <link id="69"/>
+            <link id="65"/>
+            <link id="71"/>
+            <link id="67"/></group>
+        <group name="SystemNonLinearities" ordered="false" reenterable="false">
+            <link id="59"/>
+            <link id="57"/></group>
+    </EdgesGroups>
+</stateGraph>
+

@@ -1,0 +1,44 @@
+Below some instructions to generate docs, compiling etc.
+
+Instead of CLASSPATH setup you may want to copy/link
+the ptolemy tree into the jschem tree. I prefer this setup
+as it simplifies JAR generation.
+
+Compile JSCHEMATIC:
+===================
+
+* Download and install JAVA 1.1 or higher (nearly every Linux
+  distribution includes it). Use 1.1 only when modifying the
+  code, to ensure it is compatible to 1.1 capable browsers!)
+* Download and install PTPLOT 2.0 (jdk1.1 compatible)
+* Then use following lines to setup ptolemy and to compile
+  the code:
+-------------------------------------------------------------
+export CLASSPATH=.:<PATH-TO-PTOLEMY-DIR>
+cd <YOUR-DIRECTORY>/frontend/src
+javac jschematic.java
+-------------------------------------------------------------
+
+Generate DOC:
+=============
+
+* Follow the steps under 'Compile JSCHEMATIC'
+* Generate HTML doc
+-------------------------------------------------------------
+export CLASSPATH=.:<PATH-TO-PTOLEMY-DIR>
+cd <YOUR-DIRECTORY>/frontend/src
+mkdir ../doc
+javadoc -d ../doc jschematic.java *Panel.java spiceReader.java jschem/schemBoard.java jschem/connectionList.java jschem/netData.java jschem/*Element.java
+-------------------------------------------------------------
+
+Generate JAR:
+=============
+
+* Follow the steps under 'Compile JSCHEMATIC'
+* Generate a single JAR file (which can be used in web pages)
+-------------------------------------------------------------
+cd <YOUR-DIRECTORY>/frontend/src
+rm -rf META-INF
+jar -xvf ../../neu/ptolemy.plot2.0/ptolemy/plot/ptolemy.plot.jar
+jar -cvf ../example/jschem.jar *.class jschem/*.class ptolemy/plot/*
+-------------------------------------------------------------

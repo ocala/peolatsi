@@ -1,0 +1,47 @@
+
+Circuit: SPICE WEB SIMULATION
+
+Circuit: SPICE WEB SIMULATION
+Date: Sun Sep 22 21:28:04  2002
+
+
+                              SPICE WEB SIMULATION
+                              DC transfer characteristic  Sun Sep 22 21:28:04  2002
+--------------------------------------------------------------------------------
+Index   sweep           vn1_n3#branch   
+--------------------------------------------------------------------------------
+0	0.000000e+00	6.933175e-12	
+1	1.000000e-05	5.000006e-06	
+2	2.000000e-05	1.000001e-05	
+3	3.000000e-05	1.499983e-05	
+4	4.000000e-05	2.000001e-05	
+5	5.000000e-05	2.500001e-05	
+6	6.000000e-05	3.000001e-05	
+7	7.000000e-05	3.500001e-05	
+8	8.000000e-05	4.000001e-05	
+9	9.000000e-05	4.500001e-05	
+10	1.000000e-04	5.000001e-05	
+
+Total CPU time: 0.020 seconds.
+CPU time since last call: 0.020 seconds.
+Current dynamic memory usage = 139264,
+Dynamic memory limit = 4294967295.
+
+Nominal temperature = 27
+Operating temperature = 27
+Total iterations = 32
+Transient iterations = 0
+Circuit Equations = 8
+Transient timepoints = 0
+Accepted timepoints = 0
+Rejected timepoints = 0
+Total Analysis Time = -2.0837E-19
+Transient time = 0
+matrix reordering time = -4.1674E-19
+L-U decomposition time = -6.2511E-18
+Matrix solve time = -6.66784E-18
+transient L-U decomp time = 0
+Transient solve time = 0
+Transient iters per point = 32
+Load time = -6.66784E-18
+

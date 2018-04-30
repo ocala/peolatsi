@@ -1,0 +1,339 @@
+<?xml version="1.0" standalone="yes"?>
+
+<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="true" lockWidget="true" version="2.1" suppressStudentFeedback="false" highlightRightSelection="true" startStateNodeName="%(startStateNodeName)%">
+    <startNodeMessages>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>StartProblem</MessageType>
+                <ProblemName>resistenciasParalelo</ProblemName>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>R_1</value>
+                </Selection>
+                <Action>
+                    <value>ElementCreated</value>
+                </Action>
+                <Input>
+                    <value>-1</value>
+                </Input>
+                <onHold>
+                    <value>H4sIAAAAAAAAAIVTzWsTQRR/2WbTNCmt1I+DWKkKRSrdJangISdJqwZSrbHtwSA43Z0mE3Zn19lJskXwPxD8D/TiTaHoQfCqJ4/+E1XBo0epbzaz+VDRgbfz3u99zZvf7KvvYEYClvssolary6zIaVOfSOZY1KM+5TKyBI02BvrzWytz5Z/VHwZALODKv5JQcaRgjs68+PTSg7nWu7cGzNZg1gm6XNZ41SNRVINsSzC3Bqbaynq/eh9yUZu4QR/9cRiosAPc6jDvCIqtAl4NfJ9wV8JCvUN6xPYIb9n3sCdvVepQ1Ce5rqLh1CCE9KXdwHNhpEcrTShyKqsB5whFEk42/1bIDEUQovdyXY1r47j2cFw7HdcO9jpYZJ1IgmUNuS/hdHPUc5vG8gajnluJQwDIoJxAyaNkUaCAMi2h0Fht0IhFMhDIyYJKtzDdGh75w2HHPPupIw3I1iDXpqzVlnhhfebKdg0yMcpB0mELZQnlGUrYFelolhrN0qO9/rx79HXx8U1FpsoxwvB/L2E05WHm44vz5uIXA87UoOgw4SDfCasw4zGe6oWQCOJrIx8ynqoikAmJSGuPePFgO6hDbi8QLhWP4AlMNSE3KDx5meMEZlUvFTw3SaaCsk3sqNqv031tzyT2beJTDRQTYEtQ97eYHc6kBgYz7BKvm2ZN4yB8VCSvzViC0ayN7APln8dDoh2P6QO8jp0E85lkvaSQkZCgVk4/C0PbSjeTkWaUpjzHuJQLqdVXM/lQKvLu+tEO3bVTcqGr8hdU9WGltH6yJtCMrm8M0fyxXpOofsyZP1Edmx+ihbFm+TA5TlENJwGUfm70GfeZPXXvuK80ZLuk97KE+RXiSSo4kXRpe2NzazyncKFEV9eWSrRUDsOJTtk7bR9/5bzabJe2lGtZwhSq42FTJbo2Og6yWr42dBto8lB9OF4+8r35/uFy79ubl8PfKJUkxRpD8hMIDFkZR0wJmUb4C2xFsfuWBQAA</value>
+                </onHold>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>R_2</value>
+                </Selection>
+                <Action>
+                    <value>ElementCreated</value>
+                </Action>
+                <Input>
+                    <value>-1</value>
+                </Input>
+                <onHold>
+                    <value>H4sIAAAAAAAAAIVTT2sTQRR/2SbpNimttOpBrFSFIpXuklTwkJOkVRdSrbHtwSA4zU6TCbuz6+zkTxH8Bn4GvXhTKHoQvOrJo1+iKnj0KPXNZjbZFNGBt++93/s/b/bNT8hFAlb6LKJWq8usqNmmPpGsaVGP+pTLyBI02hzKL++uzpV/V38ZAAMB1/8VhEJTCtbUkVdeXH081/rw3oBZB2abQZdLh1c9EkUOZFuCuQ7kFCtrfuMR5KM2cYM+2gdhoNwOkdVgvikolgp4NfB9wl0JC7UO6RHbI7xlP8SavFWpQVF3ckt5w9mhC+lLu459oadHKw0ociqrAecIRRIWG39LlAtFEKL1Wk2Na+O49mhcOxnXDvY7mGSDSIJpDXkg4VxjXHOHDuRtRj23MggBAK8PziCZSFkkWESallCor9VpxCIZCNzJggq3MNwatfzpqJO78KUjDcg6kG9T1mpLvLA+c2XbgcwA6TCusI20DJBBgrArktEsNZqlR3v7de/4+9KzO2qZcVdh+L+XMJ7yKPP51aXc0jcDzjtQbDLRxH3HW4UZj/FELoREEF8rZsh4IopAxkvEtfaINxiywxrk9wPhUvEUnsNUA/LDxJOXmV5gVtVSznOTy1RQtoEVVfkNeqD1mVi/R3yqgWIMbAvqnvLZ5UxqYDjDHvG6SdQ0DsLHSUytDiQYDWesHyr7PDaJ+iAlD/EaVhLMZ5L14kRGvAR18vpZGFpXci4eaUZJynKCR5lwtfpqJh9KRT7YON6le3ayXOiq+AWVfZQpyR+fCTSj8xsj1DzRZxJVvppOodrXHKGFVDEzjNspquEkgJIvjj9pW66n7h35al22S5qXJcyvEk9SwYmkyzubW9vpmMLlEl1bXy7RUjkMJypl77d9/JVNxWyXtpRpRcIUimm3qRJdH7eDWy3fHJkNVHmoPhwvH/e99fHJSu/Hu9ej3yihOMRKIeYEAqOtpJGchEw9/AM26RDIlgUAAA==</value>
+                </onHold>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>V_1</value>
+                </Selection>
+                <Action>
+                    <value>ElementCreated</value>
+                </Action>
+                <Input>
+                    <value>-1</value>
+                </Input>
+                <onHold>
+                    <value>H4sIAAAAAAAAAH1UX2sTQRCfu1zSpCltrX9AoRoUWql4J9oXyVNJWjk4SzQ2gkFwe9kmFy5717vNPwTxC/gBfPPFtwpFHwRf9clHv0RVEPwE6uzd5pK00oW5nfnN7sz8dnbv4BekwwBW+05I9WbX0UO7RTuEO7ZOXdqhjId6z3P5Zmy8Pvi9v7518a4KKQs0P3A6HJasNukRwyWsaVR54LBmEX186NN9eAEK6l3m8EgfBHDjtEyo2BjBltmuvrr2dL758YMKcybM2V6XcZOVXBKGJmjNwGmYkBbTbTmvP4FM2CINr4/+ge+JZUOcLFiwA4qpPFbyOh3CGrKyvMy8IbxwLiZC+tx4iHUgH5cW65BnlJc8xhAKOZyt/49u2g88H73XLUHPQHpGQs8Y0TO83TYGKRNOMKzK9zicr49zPqIDvuVQt1Ec+ACgoCyiZFE0FEgJg8Ni7WYNG0KatFD1uoFNsX1LIoiOQfSk8M+H7fSlr22ugmZCpkWdZovjMfWdBm+Z2AmUYZSnglKQ8rIbjAjqgqAuCb77Vjv6sfz8ngoQ7VF9H7OunNbKMddD5cuby+nl7ypcMCFvO4GNXY56CTnXYSN91icB6Ugj6ztspAYej1qHzewRdxBPQwsyu17QoIFoZaoOmTjw9JFOtlETucTi+emWCkirY0aRvkz3pJ2L7G3SoRLIR0AloI1ja3bk7UYg5lAjbne0awaJsHGQrDQHHNS6ObaHwr+ARaI9mNBj3MJM+NQc7vTiN5VckIy8FyrEQ1yUdEQpJzTh+YtDuLC18mimL0qRPygf7dCaMWqukuwX0TTc/kdk6Qp0SeRM/CmYGAk6OwHOJKioFGQt2jQquYxRVSLKVFxlgqfiR+XkUc3hUW6UePzHQb1c8qMxuSC7USr0RFc4zPOAsNDBO1qIN2TL0nd8m8/hzBo6q+Z2obJjVTcLlceWfzK4Jp4jBxDQ6km3cksYV8Rn7ZhXxXKZLz4Mu4MX4v6nZyu9n+/fJu9sJNEWfQLJTiHROIGkMXnNF+idpITVfzsoYbPxBQAA</value>
+                </onHold>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>n0</value>
+                </Selection>
+                <Action>
+                    <value>NetCreated</value>
+                </Action>
+                <Input>
+                    <value>-1</value>
+                </Input>
+                <connectionsList>
+                    <value>H4sIAAAAAAAAAK1QMUvDQBj9GhIttlARXCoK/oGkBLdOYlECQajFIgaHIz2TK82l5q42Fqz+AmcXQXB18D+4OevmKk4Ogrt+SZoKipsfPC5338vjvXf7BpqIYHXIBNW9AdOF69OASObqbsg5dSULuc2EPLjZOm0+ji8VKO3D3GEUBi0ZMe5ZoHoR61igJYc5OdcsKHIqN8IBlxbMCuoJNqIWlATtoSbtbFN8r+S3FvUCyiUKx+sxE5ssErhWR2EYOKCikJCw7NiJSQNNGlOTBu4aRJJ63AeceUQRoSIKCPNzMsmlMIhykR9JcxHz5alVWfq4UABSvRVspvo3/3nPuGrH72cKqJgxIHES04KyyNK4SXgb7ZOASliwu+SYGD3CPSNrru6kxSRUCYtOtidDaexgJ0jr0SyViVAkKLyGASY8HXn6N082G6+7tG3kxk00vvCbd3/X1aoPXZkanvEp83ysWRuyjvQtKMSIk/T/c0QNcY3oiyMYQzn5wg6nr/86X8r8SFOGAgAA</value>
+                </connectionsList>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>InterfaceAction</MessageType>
+                <Selection>
+                    <value>n1</value>
+                </Selection>
+                <Action>
+                    <value>NetCreated</value>
+                </Action>
+                <Input>
+                    <value>-1</value>
+                </Input>
+                <connectionsList>
+                    <value>H4sIAAAAAAAAAJVQu0oDQRS9ibsaNKAINoqCP7Cri52VKMrCImgwiMFi2IybCdlZ3ZmYNWD0C6xthICthZ8QsLOy0M5WrCwEe72zj/jCwguHmblz5sw59+oFdBHCbIsJanhNZgi3Rn0imWu4AefUlSzgDhNy93LteOO+c56HkR0Y3gsDvyRDxj0bNC9kVRt0tVjpumBDgVO5HDS5tGFIUE+wNrVhRNAGatLqOsX+aHYqUc+nXKJwtBQxscpCgddaOwj8CmgoJCRMVxxl0kSTZt+kiXcrRJLFaB+wxhAFhIbII6z3tHJ4yDXDTORH0kzEenoojU69neHTWG8GJzP5N/9x27woR68nedAwo08iFdOGokjSuCq8g/aJTyWMO3VySMwG4Z6ZTG6xEg9GUSVMVJJ70pLmJs4EaQ2apLJUGAl5PocBUp6BPOOTJzdWnrdo2cyMW2h8/Dfv5rquT97WZWx4sEaZV8Mx6y1WlTUbchHiKH5/iphDdBH74gA6UFQ7nGG/+9+KVfQ0zoCKM99UreHYbvbFXfJx/M3dt243Re9rN5dxe//283d9AAJ4OxATAwAA</value>
+                </connectionsList>
+            </properties>
+        </message>
+        <message>
+            <verb>NotePropertySet</verb>
+            <properties>
+                <MessageType>StartStateEnd</MessageType>
+            </properties>
+        </message>
+    </startNodeMessages>
+    <node locked="false" doneState="false">
+        <text>init</text>
+        <uniqueID>1</uniqueID>
+        <dimension>
+            <x>208</x>
+            <y>30</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state1</text>
+        <uniqueID>2</uniqueID>
+        <dimension>
+            <x>199</x>
+            <y>140</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state2</text>
+        <uniqueID>3</uniqueID>
+        <dimension>
+            <x>199</x>
+            <y>250</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state3</text>
+        <uniqueID>4</uniqueID>
+        <dimension>
+            <x>199</x>
+            <y>360</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state4</text>
+        <uniqueID>5</uniqueID>
+        <dimension>
+            <x>199</x>
+            <y>470</y>
+        </dimension>
+    </node>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>1</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>!_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementCreated</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                    <onHold>
+                        <value>H4sIAAAAAAAAAJVSz2sTQRR+u03S1NRWWvUgVGyFUijuFhEvOUmrshBL/dEcDILT3WkyYXd2nZ0kGwT/A/8HL94Uih4Er3ry4MGz96rgf9Aa3+yvZBULLjzee9++ee99882rn1AOBawNWEiNdo8Zod2hHpHMNqhLPcplaATC36M3k+xr9fP29XXztA5aA8oBJx6VsNDokj4xXcLb5n0pGG/XIwHrJ/XEwMZKO2278vzyo7n2u7c6zFowa/s9Li2+6ZIwtKDUFsyxoKzc1dRfewiVsEMcf4D/o8BXZUN0DZi3BcVRPt/0PY9w5wk8U6vW0sk31F84myxMBtK8h3vg3i6tt6DGqdz0OUcolLDY+puW4iz8AP+uNRQ9E+mZOT0zo2f6e11sskUkwba63JdwrjWe+YBG8hajrlOPAgDQ0M6gVdFKaLCIVpZQXb7S3FF3jwItqMMGHjbyhT8cdMsXPnWlDiULKh3K2h2J1zNgjuxYoEVow7j/pcS0DfQbPZERMxQxIyX2+kvz8PvS09s6QLJTgENXT1JwTPFA+/jiYnnpmw7nLajZTNgobiwhzLiMZ/GpgAjipUk1YDwLhS9jxVDDPnGjxA0bUNnzhUOFUnCqBZWkcfEmJ9UrqVmqeK6opIJKLZyoxm/R/TSfifNtfMApUIuBHUGdP2p2OZMpkHBoEreXnZpGInzcpJqmkQS9ZY3zofo/j0tiHk3ECd7ASYJ5TLJ+3EiLNVDfdOq11Kv3UY4pzWCkpwaj0egXKpteTfGd1OXdrcNd2jQzbaGnzi+o7kknPD2amAEFVE3UVJyjRxPoUQHV/llbKqDH2e5q7wI6laFBvGQtX/d/Ii3Au8Drv/P+8Wr/x5uX+aNWA+KqlXTR43GWd8gzCdpyEPwGzG8bxSIFAAA=</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">!_1</matcherParameter>
+                <matcherParameter name="action">ElementCreated</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>1</sourceID>
+        <destID>2</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>3</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>n0</value>
+                    </Selection>
+                    <Action>
+                        <value>NetCreated</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                    <connectionsList>
+                        <value>H4sIAAAAAAAAAJVQPUvDUBS9rYlKK1QKLhUF/0BSg5uTWJRAEbVYxOLwSJ/pK81LzXu1sWD1Fzi7CIKrgz9BcHPqoJurODkI7nqTNPWLCl44JO/e88475169gCo8mGszQTW7xTRh1ahDJLM0y+WcWpK5vMiE3L1cPdq4754lIb0DqT3PdUrSY9w2QbE9VjVBDT5G/7tgwjinctltcWnCmKC2YB1qQlrQBmrS6hrFfiY+lajtUC5R2F/ymVhhnsCx0nFdpwIKCgkJM5ViYFJHk/rApI6zApFk0W8C1iRiHKEgkgjjvV8JPCRaXizyI2ksYjw9lDLTb6d4NdSbxc3khvMft/Xzsv96nAQFMzrED2KaMCGiNFYQvoj2iUMlZIt1ckD0BuG2Hm1usRIuJqBKmKpEc9KW+ibuBGkNGqUyECMSkjyPAfo8DXnaJ09uFJ63aFmPjRtoPPubd3tdV3N3dRkaHq1RZtdwzWqbVWXNhISPOAzvnyDyiAtEU+xDFyaCP9zh0G44WW/+r0IR9WvG+VbQSoUZ4hd6kZvwhd637kUfN1+7Azc3/3TzV30A2YRacSgDAAA=</value>
+                    </connectionsList>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">n0</matcherParameter>
+                <matcherParameter name="action">NetCreated</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>2</sourceID>
+        <destID>3</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>5</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>GND_1</value>
+                    </Selection>
+                    <Action>
+                        <value>ElementCreated</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                    <onHold>
+                        <value>H4sIAAAAAAAAAJVSzWsTQRR/u83GxNRG6gciRIpCEYu7IN5yklbLQhS/moNBcLo73UzYnV1nJ8kGwZsn8X/w4k2h6EHwJOjJo/9EVRA8eK9vNrNJY4vSgcf7mPf1m9+8/glWKmB5yFJqB31mp16XRkQyz6YhjSiXqR1w//rYXvl9xn/+rMFNgEzAyr+K0PCkYJ6uPP/iwsOF4P07E+ZdmPfiPpcuXw1JmrpQCgTzXbCUuqL11QdQTrvEj4d4nyWxShuhakHdExRHxXw1jiLCfQmLrR4ZECckPHDu4UweNFtQ05tcU9lwcpxChtK5i3thZkibHahxKldjzjGUSjjROaiRlYg4wduLLQXXQbjOBK5TwHXizR42WSOSYFtTbkk41ZnOvE8zeYPR0G9mCQAYKMdRKiglFDiGUpdQuXR5XeDT+MjIoiq2sdieLPxpu2ed/dKTJpRcKHcpC7oSn2vIfNl1wchQRnn/JS0fUX71RQHMVsBsDezN1/bO98aTdUVlvlPyv28whbhtfH55zmp8M+G0CzWPCQ/JzimFash4YR9NiCCRdioJ44UpYpkziJwOSJiN1agF5c1Y+FQ8hqcw14HyuPHsS+5lr6RmqeSFWSZVqNTBiWr8Gt3SfjX3b5GI6kAtD9wW1P8rZ4MzqQNjDG0S9ouqIwiET5tUtJtJMDvu1B+p+zouiX62xx7HWzhJsIhJNsgbmTkH6lhaG1qr/2HlkKpomUp28agrZFY/zew/aco7azsbtO0U3EJf1S/u6zQ5M1FD9zcn0bk90blpdFef/blazCQfXJuscBjLSBAfPunND4+WBz/evpp8VNU4z1o60INZT4LRTv4A6Dqb1+YEAAA=</value>
+                    </onHold>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">GND_1</matcherParameter>
+                <matcherParameter name="action">ElementCreated</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>3</sourceID>
+        <destID>4</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>7</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>n1</value>
+                    </Selection>
+                    <Action>
+                        <value>NetCreated</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                    <connectionsList>
+                        <value>H4sIAAAAAAAAAJVQy0rDQBS9rYlKFZSCG0XBH0g0uHMlFiVQxFoUsbgY0jGd0kxqZmJjwccXuHYjFNy68BMEd6660J1bcSUouNebV32h4IVDMveeOXPOvXgCVXgw3WKCarbPNGHVqEMkszTL5Zxakrm8yITcPl8+KN0enmZhaAtyO57rlKXHuG2CYnusaoIafozkO2fCIKdy0fW5NGFAUFuwNjVhSNAGatLqCsX+SHoqU9uhXKJwsBAwscQ8gWOl7bpOBRQUEhImK8XQpI4m9Z5JHWcFIsl80ASsUcQgQkFkEcZbUhk8ZHwvFfmWNBUxHu7KIxOvJ3g10pvCzYz/zr/f1M82gpejLCiY0SFBGNOEYRGnscLwRbRPHCohX6yTPaI3CLf1eHPzlWgxIVXCWCWek5bU13AnSGvQOJWB6JOQ5TMYIOFpyNM+eLJUeFynG3pq3EDj+Z+868u6On5Tl5Hh/hpldg3XrLZYVdZMyASI/ej+MWIG0UE0xS4cwnD4hzv8tRtNVpv/q0hETTIqYcZZP2zlogzpC93YTfRC90u3k+Dqc7fn5ku3h+d/evyj3gGphm84PQMAAA==</value>
+                    </connectionsList>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer '-1' in the highlighted element.</hintMessage>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matcher>
+                <matcherType>ExactMatcher</matcherType>
+                <matcherParameter name="selection">n1</matcherParameter>
+                <matcherParameter name="action">NetCreated</matcherParameter>
+                <matcherParameter name="input">-1</matcherParameter>
+                <matcherParameter name="actor">Student</matcherParameter>
+            </matcher>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>4</sourceID>
+        <destID>5</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <EdgesGroups ordered="false"></EdgesGroups>
+</stateGraph>
+

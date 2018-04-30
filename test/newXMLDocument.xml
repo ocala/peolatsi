@@ -1,0 +1,560 @@
+
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>StartNewProblem</MessageType>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7feb</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>StateGraph</MessageType>
+        <caseInsensitive>true</caseInsensitive>
+        <unordered>true</unordered>
+        <lockWidget>false</lockWidget>
+        <suppressStudentFeedback>false</suppressStudentFeedback>
+        <highlightRightSelection>true</highlightRightSelection>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fbd</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>StartProblem</MessageType>
+        <ProblemName>Inicio</ProblemName>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fbc</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType></MessageType>
+        <Selection>
+            <value></value>
+        </Selection>
+        <Action>
+            <value></value>
+        </Action>
+        <Input>
+            <value></value>
+        </Input>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fbb</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>InterfaceAction</MessageType>
+        <Selection>
+            <value>R_1</value>
+        </Selection>
+        <Action>
+            <value>ElementCreated</value>
+        </Action>
+        <Input>
+            <value>-1</value>
+        </Input>
+        <onHold>
+            <value>H4sIAAAAAAAAAIVUzWsTQRR/2Xy4SYotrYKIhQpSpdIsSQUPOZWkH4FUa2x7MBenu9Nkw+7sOjtJNgji2Zt/gV68KYhHb+JFPHoVL16Kgjc9Sn2zmSQbFV14+977ve95s/v8G6QDDst9O6CFVtcuBGabukTYZoE61KVMBAVOg42h/GR75XTpZ+WHBhByuPqvIBRMwW1TRW49/rz5qf79nQYzNZgxvS4TNVZxSBDUINXitlWDtGQlxa/dgUzQJpbXR3voe9JtgKwOsyanWMpjFc91CbMEzNc7pEcMh7CWcRtrsla5DnnVybr0hjNDF9IXRgP7Qk+HlpuQZ1RUPMYQCgQsNP+WKO1zz0frlboc18BxjfG4xmhcwzvsYJIqEQTTauJIwNnmpOYeDcWmTR2rHPoAkECaQ9KRUkiQl4qAXGO1QQM7EB7HnczL8AKGF8Ytv33ZSZ9/3xEapGqQaVO71RZ4YH3bEu0aJEKkQVRhF2kJ6SnSwy4fjVaQoxXUaC8+HBx/Wby/JZcpYzTf/99NmEz5sb396E3O1zQ4V4Ms4WYw3CnkTZubuPuhlnVsNpJzPuHEVYru22wkck9EC8UV94gTDtmgCUlMK+BC7Bxb1HONdW6Wqpc2HY8IXE/m0OMW5ffgASSbkBlWnz79+MZTsiHpPDu9fQmlmtiW7LFKj5SejfQbxKUKyEfALqfWbz77zBYKGA56QJzuKOoUTssmSXSlhgK0Zm2iD6R9DptEPYzJQ7yOlbjt2sLuRYm0aGujJ6PukqZ0Kaf9aK6sFKXpBB9pwwuhzmf6epXFrerxPj0wRlcCujJ+QaYfZ9JiRWEKTaj82hjVT9QzjapPIPEnqnz1MZqLFdP9qB35saQEgJQXJ6+4Ld2Th498pSHaRcVLAmZXiCMoZ0TQpb2Nnd14TO5ika6uLRVpseT7U5VSN9su/gB0yQyLtqTpsoAkinG3ZJGuTdrB1Zauj80aqsyXL4aHj0vfeX13uff11bPxxzeiKMSIIfoUAuOtxJG0gETD/wW/gCLtzAUAAA==</value>
+        </onHold>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fba</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>InterfaceAction</MessageType>
+        <Selection>
+            <value>R_2</value>
+        </Selection>
+        <Action>
+            <value>ElementCreated</value>
+        </Action>
+        <Input>
+            <value>-1</value>
+        </Input>
+        <onHold>
+            <value>H4sIAAAAAAAAAIVUzWsTQRR/2Xy4SYotrYKIhQpSpdIsSQUPOZX0K5BqjW0P5uJ0M81u2J1dZyfJBkE8e/Mv8ORNQTx6Ey/i0at48VIUvOlR6pvNbLIR0YG3897vfb83yYvvkA04LA/sgJY6PbsUmBZ1ibDNEnWoS5kISpwGmyP+2c7K2cqv2k8NIORw/V9OyJiC26by3H76Zetz48d7DWbqMGN6PSbqrOaQIKhDpsPtdh2y8qqo+8Y9yAUWaXsD1Ie+J82GeDVg1uQUU3ms5rkuYW0B840u6RPDIaxj3MWcrFNtQFFVsi6t4dzIhAyE0cS60NKh1RYUGRU1jzGEAgELrb8Fyvrc81F7rSHbNbBdY9yuEbdreEddDLJBBMGwmjgWcL41yblPQ7FlU6ddDX0AwPHBHJKOlEGCeSkIKDRXmzSwA+Fx3Mm8dC+he2lc8rtX3ezFD12hQaYOOYvaHUvgwAZ2W1h1SIVIwyjDHtISQEpmedzjcWsl2VpJtfby4+HJ18WH23KZUVW+/7+XMOnyk7Xz5G3B1zS4UIc84WYw2ikUTZubuPuRlHdsFvMFn3DiKkH3bRaz3BPRQnHFfeKEo2vYgjSGFXApMccO9VxjnZuVjStbjkcErid35PE25Q/gEaRbkBtln55+cuMZWZA0np3evoQyLSxL1rhBj5Wcj+RbxKUKKEbAHqftP2wOmC0UMGr0kDi92OsMdssmQXQlhgK0Vn0iD6V+DotEOUzwI7yBmbjt2sLuR4G0aGvxyam3pClZ8lk/6isvWak6xSN1+CDUfKafV1Xc2Tg5oIdG/CSgJ/0XZPhxJC2RFKbQlIqvjVH9VJ1pVNoq+gNVtvoYLSSS6X5UTlF2JwAkvzj5JHXZvhw+3itNYZXVXREwu0IcQTkjgi7tb+7uJX0Kl8t0dW2pTMsV35/KlLltufgHoMvLaNOOVF0VkEY2aZYu07VJObjays2xWkOR+fLDcPi49N0395f7314/H//4YopcjASiTyEw3koSyQpINf3fNElB/MwFAAA=</value>
+        </onHold>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fb9</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>StartProblem</MessageType>
+        <ProblemName>Inicio</ProblemName>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fb8</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType></MessageType>
+        <Selection>
+            <value></value>
+        </Selection>
+        <Action>
+            <value></value>
+        </Action>
+        <Input>
+            <value></value>
+        </Input>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fb7</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>InterfaceAction</MessageType>
+        <Selection>
+            <value>R_1</value>
+        </Selection>
+        <Action>
+            <value>ElementCreated</value>
+        </Action>
+        <Input>
+            <value>-1</value>
+        </Input>
+        <onHold>
+            <value>H4sIAAAAAAAAAIVUzWsTQRR/2Xy4SYotrYKIhQpSpdIsSQUPOZWkH4FUa2x7MBenu9Nkw+7sOjtJNgji2Zt/gV68KYhHb+JFPHoVL16Kgjc9Sn2zmSQbFV14+977ve95s/v8G6QDDst9O6CFVtcuBGabukTYZoE61KVMBAVOg42h/GR75XTpZ+WHBhByuPqvIBRMwW1TRW49/rz5qf79nQYzNZgxvS4TNVZxSBDUINXitlWDtGQlxa/dgUzQJpbXR3voe9JtgKwOsyanWMpjFc91CbMEzNc7pEcMh7CWcRtrsla5DnnVybr0hjNDF9IXRgP7Qk+HlpuQZ1RUPMYQCgQsNP+WKO1zz0frlboc18BxjfG4xmhcwzvsYJIqEQTTauJIwNnmpOYeDcWmTR2rHPoAkECaQ9KRUkiQl4qAXGO1QQM7EB7HnczL8AKGF8Ytv33ZSZ9/3xEapGqQaVO71RZ4YH3bEu0aJEKkQVRhF2kJ6SnSwy4fjVaQoxXUaC8+HBx/Wby/JZcpYzTf/99NmEz5sb396E3O1zQ4V4Ms4WYw3CnkTZubuPuhlnVsNpJzPuHEVYru22wkck9EC8UV94gTDtmgCUlMK+BC7Bxb1HONdW6Wqpc2HY8IXE/m0OMW5ffgASSbkBlWnz79+MZTsiHpPDu9fQmlmtiW7LFKj5SejfQbxKUKyEfALqfWbz77zBYKGA56QJzuKOoUTssmSXSlhgK0Zm2iD6R9DptEPYzJQ7yOlbjt2sLuRYm0aGujJ6PukqZ0Kaf9aK6sFKXpBB9pwwuhzmf6epXFrerxPj0wRlcCujJ+QaYfZ9JiRWEKTaj82hjVT9QzjapPIPEnqnz1MZqLFdP9qB35saQEgJQXJ6+4Ld2Th498pSHaRcVLAmZXiCMoZ0TQpb2Nnd14TO5ika6uLRVpseT7U5VSN9su/gB0yQyLtqTpsoAkinG3ZJGuTdrB1Zauj80aqsyXL4aHj0vfeX13uff11bPxxzeiKMSIIfoUAuOtxJG0gETD/wW/gCLtzAUAAA==</value>
+        </onHold>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fb6</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>InterfaceAction</MessageType>
+        <Selection>
+            <value>R_2</value>
+        </Selection>
+        <Action>
+            <value>ElementCreated</value>
+        </Action>
+        <Input>
+            <value>-1</value>
+        </Input>
+        <onHold>
+            <value>H4sIAAAAAAAAAIVUzWsTQRR/2Xy4SYotrYKIhQpSpdIsSQUPOZX0K5BqjW0P5uJ0M81u2J1dZyfJBkE8e/Mv8ORNQTx6Ey/i0at48VIUvOlR6pvNbLIR0YG3897vfb83yYvvkA04LA/sgJY6PbsUmBZ1ibDNEnWoS5kISpwGmyP+2c7K2cqv2k8NIORw/V9OyJiC26by3H76Zetz48d7DWbqMGN6PSbqrOaQIKhDpsPtdh2y8qqo+8Y9yAUWaXsD1Ie+J82GeDVg1uQUU3ms5rkuYW0B840u6RPDIaxj3MWcrFNtQFFVsi6t4dzIhAyE0cS60NKh1RYUGRU1jzGEAgELrb8Fyvrc81F7rSHbNbBdY9yuEbdreEddDLJBBMGwmjgWcL41yblPQ7FlU6ddDX0AwPHBHJKOlEGCeSkIKDRXmzSwA+Fx3Mm8dC+he2lc8rtX3ezFD12hQaYOOYvaHUvgwAZ2W1h1SIVIwyjDHtISQEpmedzjcWsl2VpJtfby4+HJ18WH23KZUVW+/7+XMOnyk7Xz5G3B1zS4UIc84WYw2ikUTZubuPuRlHdsFvMFn3DiKkH3bRaz3BPRQnHFfeKEo2vYgjSGFXApMccO9VxjnZuVjStbjkcErid35PE25Q/gEaRbkBtln55+cuMZWZA0np3evoQyLSxL1rhBj5Wcj+RbxKUKKEbAHqftP2wOmC0UMGr0kDi92OsMdssmQXQlhgK0Vn0iD6V+DotEOUzwI7yBmbjt2sLuR4G0aGvxyam3pClZ8lk/6isvWak6xSN1+CDUfKafV1Xc2Tg5oIdG/CSgJ/0XZPhxJC2RFKbQlIqvjVH9VJ1pVNoq+gNVtvoYLSSS6X5UTlF2JwAkvzj5JHXZvhw+3itNYZXVXREwu0IcQTkjgi7tb+7uJX0Kl8t0dW2pTMsV35/KlLltufgHoMvLaNOOVF0VkEY2aZYu07VJObjays2xWkOR+fLDcPi49N0395f7314/H//4YopcjASiTyEw3koSyQpINf3fNElB/MwFAAA=</value>
+        </onHold>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fb5</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>GroupDescriptionStart</MessageType>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fb4</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>GroupDescriptionEnd</MessageType>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fb3</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>NumberOfTables</MessageType>
+        <Number>0</Number>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fb2</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminTextField</WidgetType>
+        <DorminName>dorminTextField6</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate textField (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (textField (name dorminTextField6)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=230,y=60</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fb1</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminTextField</WidgetType>
+        <DorminName>dorminTextField5</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate textField (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (textField (name dorminTextField5)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=100,y=70</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fb0</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminComboBox</WidgetType>
+        <DorminName>dorminComboBox2</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <ComboBoxItems>
+            <value>Seleccione una opción</value>
+            <value>Lineal</value>
+            <value>Semi-Lineal</value>
+        </ComboBoxItems>
+        <jessDeftemplates>
+            <value>(deftemplate comboBox (slot name) (slot value) (multislot values))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (comboBox (name dorminComboBox2) (values  "Seleccione una opción" "Lineal" "Semi-Lineal")))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=240,y=110</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7faf</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminTextField</WidgetType>
+        <DorminName>dorminTextField4</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate textField (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (textField (name dorminTextField4)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=80,y=20</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fae</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminComboBox</WidgetType>
+        <DorminName>dorminComboBox1</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <ComboBoxItems>
+            <value>Seleccione una opción</value>
+            <value>Primer Orden</value>
+            <value>Segundo Orden</value>
+            <value>Orden Superior</value>
+        </ComboBoxItems>
+        <jessDeftemplates>
+            <value>(deftemplate comboBox (slot name) (slot value) (multislot values))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (comboBox (name dorminComboBox1) (values  "Seleccione una opción" "Primer Orden" "Segundo Orden" "Orden Superior")))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=240,y=80</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fad</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminTextField</WidgetType>
+        <DorminName>dorminTextField3</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate textField (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (textField (name dorminTextField3)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=230,y=20</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fac</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminTextField</WidgetType>
+        <DorminName>dorminTextField2</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate textField (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (textField (name dorminTextField2)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=240,y=50</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fab</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminTextField</WidgetType>
+        <DorminName>dorminTextField1</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate textField (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (textField (name dorminTextField1)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=240,y=20</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7faa</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminButton</WidgetType>
+        <DorminName>hint</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate button (slot name))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (button (name hint)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=116,y=5</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fa9</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>InterfaceAction</MessageType>
+        <Selection>
+            <value>hint</value>
+        </Selection>
+        <Action>
+            <value>UpdateText</value>
+        </Action>
+        <Input>
+            <value>Help</value>
+        </Input>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fa8</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminButton</WidgetType>
+        <DorminName>done</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate button (slot name))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (button (name done)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=54,y=5</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fa7</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>InterfaceAction</MessageType>
+        <Selection>
+            <value>done</value>
+        </Selection>
+        <Action>
+            <value>UpdateText</value>
+        </Action>
+        <Input>
+            <value>Done</value>
+        </Input>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fa6</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminLabel</WidgetType>
+        <DorminName>dorminLabel4</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate label (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (label (name dorminLabel4)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=10,y=50</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fa5</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>InterfaceAction</MessageType>
+        <Selection>
+            <value>dorminLabel4</value>
+        </Selection>
+        <Action>
+            <value>UpdateText</value>
+        </Action>
+        <Input>
+            <value>Salida en estado estable</value>
+        </Input>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fa4</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminLabel</WidgetType>
+        <DorminName>dorminLabel2</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate label (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (label (name dorminLabel2)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=10,y=80</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fa3</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>InterfaceAction</MessageType>
+        <Selection>
+            <value>dorminLabel2</value>
+        </Selection>
+        <Action>
+            <value>UpdateText</value>
+        </Action>
+        <Input>
+            <value>Orden del Sistema</value>
+        </Input>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fa2</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminLabel</WidgetType>
+        <DorminName>dorminLabel1</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate label (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (label (name dorminLabel1)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=10,y=20</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fa1</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>InterfaceAction</MessageType>
+        <Selection>
+            <value>dorminLabel1</value>
+        </Selection>
+        <Action>
+            <value>UpdateText</value>
+        </Action>
+        <Input>
+            <value>Voltaje de Excitación de la Planta</value>
+        </Input>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7fa0</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminTextField</WidgetType>
+        <DorminName>dorminTextField9</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate textField (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (textField (name dorminTextField9)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=230,y=90</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7f9f</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminTextField</WidgetType>
+        <DorminName>dorminTextField8</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate textField (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (textField (name dorminTextField8)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=230,y=60</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7f9e</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>InterfaceDescription</MessageType>
+        <WidgetType>DorminTextField</WidgetType>
+        <DorminName>dorminTextField7</DorminName>
+        <UpdateEachCycle>false</UpdateEachCycle>
+        <jessDeftemplates>
+            <value>(deftemplate textField (slot name) (slot value))</value>
+        </jessDeftemplates>
+        <jessInstances>
+            <value>(assert (textField (name dorminTextField7)))</value>
+        </jessInstances>
+        <ComponentDescription>v=true,x=230,y=30</ComponentDescription>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7f9d</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>SendWidgetLock</MessageType>
+        <WidgetLockFlag>false</WidgetLockFlag>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7f9b</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>StartStateEnd</MessageType>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7f9c</transaction_id>
+    </properties>
+</message>
+<message>
+    <verb>SendNoteProperty</verb>
+    <properties>
+        <MessageType>StartStateCreated</MessageType>
+        <StartStateName>Inicio</StartStateName>
+    </properties>
+</message>
+<message>
+    <verb>NotePropertySet</verb>
+    <properties>
+        <MessageType>AuthorModeChange</MessageType>
+        <oldMode>Set Start State</oldMode>
+        <newMode>Demonstrate</newMode>
+        <transaction_id>T62b8dfdb:12fdace35bf:-7f79</transaction_id>
+    </properties>
+</message>

@@ -1,0 +1,119 @@
+<HTML>
+<HEAD>
+<TITLE>WISE JAVA Applet(s)</TITLE>
+</HEAD>
+<BODY BGCOLOR=#000000>
+<FONT COLOR=#FFFFFF>
+<P><CENTER>Experimental WISE schematic entry.</CENTER></P>
+<P>
+<CENTER><A HREF="http://weblab.sourceforge.net/">Here is the homepage of the project!</A></CENTER>
+<P>
+<P><CENTER>This applets are for test and training purposes.</CENTER></P>
+<BR>
+Press the corresponding button to start an experiment.
+<br>
+<HR>
+A low pass filter example:<br>
+The circuit contains of a capacitor (C1) parallel to the output port and
+a resistor (R1) between input and output. The cutoff frequency is defined
+by the value of R1 and C1. On the input an AC source with 1V is attached.
+<br>(demo with  AC, 1e8 stop, 1 start, 20 points)
+<br>
+<center>
+<applet code="jschematic.class" archive="jschem.jar" width=150 height=40>
+<param name="SIM_SERVER" value="results/lowpass.txt">
+<param name="PRELOAD" value="circuits/lowpass">
+</applet>
+</center>
+<BR>
+<HR>
+A high pass filter example:<br>
+The circuit contains of a resistor (R1) parallel to the output port and
+a capacitor (C1) between input and output. The cutoff frequency is again
+defined by the value of R1 and C1. On the input an AC source with 1V is
+attached.
+<br>(demo with  AC, 1e8 stop, 1 start, 20 points)
+<br>
+<center>
+<applet code="jschematic.class" archive="jschem.jar" width=150 height=40>
+<param name="SIM_SERVER" value="results/highpass.txt">
+<param name="PRELOAD" value="circuits/highpass">
+</applet>
+</center>
+<BR>
+<HR>
+A (too) simple amplifier example:<br>
+The circuit contains a transistor stimulated by a sine source.
+<br>(demo with TRAN 1e-5 step, 1e-3 stop)
+<br>
+<center>
+<applet code="jschematic.class" archive="jschem.jar" width=150 height=40>
+<param name="SIM_SERVER" value="results/transistor.txt">
+<param name="PRELOAD" value="circuits/transistor">
+</applet>
+</center>
+<BR>
+<HR>
+A simple power supply example:<br>
+The circuit contains a diode  for an simple AC/DC converter.
+<br>(demo with TRAN, 5e-2 stop, 1e-7 step)
+<br>
+<center>
+<applet code="jschematic.class" archive="jschem.jar" width=150 height=40>
+<param name="SIM_SERVER" value="results/diode.txt">
+<param name="PRELOAD" value="circuits/diode">
+</applet>
+</center>
+<BR>
+<HR>
+A MOS diode:<br>
+The circuit contains a N-channel MOSFET acting as a 'MOS diode'.
+<br>(demo with DC, 0 start, 2 stop, 0.02 step)
+<br>
+<center>
+<applet code="jschematic.class" archive="jschem.jar" width=150 height=40>
+<param name="SIM_SERVER" value="results/mos_diode.txt">
+<param name="PRELOAD" value="circuits/mos_diode">
+</applet>
+</center>
+<BR>
+<HR>
+A MOS current mirror:<br>
+The circuit contains two N-channel MOSFET acting as a current mirror.
+<br>(demo with DC, 0 start, 1e-4 stop, 1e-5 step)
+<br>
+<center>
+<applet code="jschematic.class" archive="jschem.jar" width=150 height=40>
+<param name="SIM_SERVER" value="results/mos_mirror.txt">
+<param name="PRELOAD" value="circuits/mos_mirror">
+</applet>
+</center>
+<BR>
+<HR>
+An ideal, noninverting amplifier:<br>
+The circuit contains a voltage dependent voltage source configured as amplifier.
+<br>(demo with TRAN 1e-5 step, 1e-3 stop)
+<br>
+<center>
+<applet code="jschematic.class" archive="jschem.jar" width=150 height=40>
+<param name="SIM_SERVER" value="results/noninv_amp.txt">
+<param name="PRELOAD" value="circuits/noninv_amp">
+</applet>
+</center>
+<BR>
+<HR>
+An empty schematic entry:<br>
+Do it yourself!
+<br>(no demo, tries to access http://localhost/, simulation will fail!)
+<br>
+<center>
+<applet code="jschematic.class" archive="jschem.jar" width=150 height=40>
+<param name="SIM_SERVER" value="http://localhost/cgi-bin/backend">
+</applet>
+</center>
+<BR>
+<HR>
+Thats all folk's!  (for now....)
+<P></P>
+</BODY>
+</HTML>
